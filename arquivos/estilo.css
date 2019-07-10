@@ -2,15 +2,13 @@
 
 /* Zerar margens da página */
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 /* Página */
 body{
-    background-color:#656565;
-    margin:0;
-    padding:0;
+    background-color:#fff;
     font-family:small\ tahoma,"Bitstream Vera Sans","Trebuchet MS","Lucida Grande",lucida,helvetica,sans-serif;
     text-align:justify;
 }
