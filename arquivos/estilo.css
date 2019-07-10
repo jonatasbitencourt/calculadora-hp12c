@@ -6,10 +6,14 @@
     padding: 0px;
 }
 
+/* Página */
+body{
+    background-color: #999999;
+}
 /* Configuração da área usável da página. */
 div#pointer_div{
     position: relative;
-    margin: 0px auto 0px auto;
+    margin: 15% auto 0px auto;
     height: 282px;
     width: 450px;
 }
