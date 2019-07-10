@@ -8,7 +8,11 @@
 
 /* Página */
 body{
-    background-color: #999999;
+    background-color:#656565;
+    margin:0;
+    padding:0;
+    font-family:small\ tahoma,"Bitstream Vera Sans","Trebuchet MS","Lucida Grande",lucida,helvetica,sans-serif;
+    text-align:justify;
 }
 /* Configuração da área usável da página. */
 div#pointer_div{
@@ -16,4 +20,23 @@ div#pointer_div{
     margin: 15% auto 0px auto;
     height: 282px;
     width: 450px;
+}
+
+div#pointer_div img{
+    border:0;
+    padding:0;
+    margin-left:0;
+    margin-top:0;
+    margin-right:0;
+    margin-bottom:0;
+    float:none;
+    clear:right;
+}
+
+#geral{
+    margin:100px;
+}
+
+li{
+    line-height:140%;
 }
