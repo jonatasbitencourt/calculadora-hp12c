@@ -5,11 +5,10 @@
     margin: 0;
     padding: 0;
 }
-
 /* Página */
 body{
-    background-color:#fff;
-    font-family:small\ tahoma,"Bitstream Vera Sans","Trebuchet MS","Lucida Grande",lucida,helvetica,sans-serif;
+    background-color:#ffffff;
+    font-family:tahoma,"Bitstream Vera Sans","Trebuchet MS","Lucida Grande",lucida,helvetica,sans-serif;
     text-align:justify;
 }
 /* Configuração da área usável da página. */
@@ -21,6 +20,7 @@ div#pointer_div{
 }
 
 div#pointer_div img{
+    position: absolute;
     border:0;
     padding:0;
     margin-left:0;
@@ -29,10 +29,6 @@ div#pointer_div img{
     margin-bottom:0;
     float:none;
     clear:right;
-}
-
-#geral{
-    margin:100px;
 }
 
 li{
