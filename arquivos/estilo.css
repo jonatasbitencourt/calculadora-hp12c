@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+/* Zerar margens da página */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Configuração da área usável da página. */
+div#pointer_div{
+    position: relative;
+    margin: 0px auto 0px auto;
+    height: 282px;
+    width: 450px;
+}
