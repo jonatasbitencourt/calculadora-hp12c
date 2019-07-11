@@ -7,14 +7,12 @@
 }
 /* Página */
 body{
-    background-color:#ffffff;
-    font-family:tahoma,"Bitstream Vera Sans","Trebuchet MS","Lucida Grande",lucida,helvetica,sans-serif;
-    text-align:justify;
+    background-color:#454545;
 }
 /* Configuração da área usável da página. */
 div#pointer_div{
     position: relative;
-    margin: 15% auto 0px auto;
+    margin:1% auto auto auto;
     height: 282px;
     width: 450px;
 }
@@ -28,9 +26,4 @@ div#pointer_div img{
     margin-right:0;
     margin-bottom:0;
     float:none;
-    clear:right;
-}
-
-li{
-    line-height:140%;
 }
