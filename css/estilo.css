@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+/* Zerar margens da página */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Página */
+body{
+    background-color:#333333;
+}
+/* Configuração da posição da calculadora na página. */
+div#pointer_div{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+/* Configuração div script */
+div.script{
+  position: absolute;
+}
