@@ -1,22 +1,25 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
-	<meta charset="utf-8"/>
+	<meta charset="utf-8" />
 	<title>Emulador Web HP-12C</title>
-	<link rel="stylesheet" href="arquivos/estilo.css"/>
+	<link rel="stylesheet" href="css/estilo.css" />
 	<link rel="shortcut icon" href="arquivos/favcon.png" />
 	<meta name="viewport" content="width-device-width, initial-scale=1" />
-<script type='text/javascript'>window.mod_pagespeed_start = Number(new Date());</script>
-<script src="arquivos/hp12c.js" type="text/javascript"></script>
+	<script>window.mod_pagespeed_start = Number(new Date());</script>
+	<script src="js/hp12c.js"></script>
 </head>
 	<body>
 
-		<div id=pointer_div style="position: relative; height: 282px; width: 450px;">
+<div id="pointer_div" style="height: 282px; width: 450px;">
 
-		<script pagespeed_no_defer="" type="text/javascript">//<![CDATA[
+	<script pagespeed_no_defer="" type="text/javascript">//<![CDATA[
 		(function(){var g=this,h=function(b,d){var a=b.split("."),c=g;a[0]in c||!c.execScript||c.execScript("var "+a[0]);for(var e;a.length&&(e=a.shift());)a.length||void 0===d?c[e]?c=c[e]:c=c[e]={}:c[e]=d};var l=function(b){var d=b.length;if(0<d){for(var a=Array(d),c=0;c<d;c++)a[c]=b[c];return a}return[]};var m=function(b){var d=window;if(d.addEventListener)d.addEventListener("load",b,!1);else if(d.attachEvent)d.attachEvent("onload",b);else{var a=d.onload;d.onload=function(){b.call(this);a&&a.call(this)}}};var n,p=function(b,d,a,c,e){this.f=b;this.h=d;this.i=a;this.c=e;this.e={height:window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight,width:window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth};this.g=c;this.b={};this.a=[];this.d={}},q=function(b,d){var a,c,e=d.getAttribute("pagespeed_url_hash");if(a=e&&!(e in b.d))if(0>=d.offsetWidth&&0>=d.offsetHeight)a=!1;else{c=d.getBoundingClientRect();var f=document.body;a=c.top+("pageYOffset"in window?window.pageYOffset:(document.documentElement||f.parentNode||f).scrollTop);c=c.left+("pageXOffset"in window?window.pageXOffset:(document.documentElement||f.parentNode||f).scrollLeft);f=a.toString()+","+c;b.b.hasOwnProperty(f)?a=!1:(b.b[f]=!0,a=a<=b.e.height&&c<=b.e.width)}a&&(b.a.push(e),b.d[e]=!0)};p.prototype.checkImageForCriticality=function(b){b.getBoundingClientRect&&q(this,b)};h("pagespeed.CriticalImages.checkImageForCriticality",function(b){n.checkImageForCriticality(b)});h("pagespeed.CriticalImages.checkCriticalImages",function(){r(n)});var r=function(b){b.b={};for(var d=["IMG","INPUT"],a=[],c=0;c<d.length;++c)a=a.concat(l(document.getElementsByTagName(d[c])));if(0!=a.length&&a[0].getBoundingClientRect){for(c=0;d=a[c];++c)q(b,d);a="oh="+b.i;b.c&&(a+="&n="+b.c);if(d=0!=b.a.length)for(a+="&ci="+encodeURIComponent(b.a[0]),c=1;c<b.a.length;++c){var e=","+encodeURIComponent(b.a[c]);131072>=a.length+e.length&&(a+=e)}b.g&&(e="&rd="+encodeURIComponent(JSON.stringify(s())),131072>=a.length+e.length&&(a+=e),d=!0);t=a;if(d){c=b.f;b=b.h;var f;if(window.XMLHttpRequest)f=new XMLHttpRequest;else if(window.ActiveXObject)try{f=new ActiveXObject("Msxml2.XMLHTTP")}catch(k){try{f=new ActiveXObject("Microsoft.XMLHTTP")}catch(u){}}f&&(f.open("POST",c+(-1==c.indexOf("?")?"?":"&")+"url="+encodeURIComponent(b)),f.setRequestHeader("Content-Type","application/x-www-form-urlencoded"),f.send(a))}}},s=function(){var b={},d=document.getElementsByTagName("IMG");if(0==d.length)return{};var a=d[0];if(!("naturalWidth"in a&&"naturalHeight"in a))return{};for(var c=0;a=d[c];++c){var e=a.getAttribute("pagespeed_url_hash");e&&(!(e in b)&&0<a.width&&0<a.height&&0<a.naturalWidth&&0<a.naturalHeight||e in b&&a.width>=b[e].k&&a.height>=b[e].j)&&(b[e]={rw:a.width,rh:a.height,ow:a.naturalWidth,oh:a.naturalHeight})}return b},t="";h("pagespeed.CriticalImages.getBeaconData",function(){return t});h("pagespeed.CriticalImages.Run",function(b,d,a,c,e,f){var k=new p(b,d,a,e,f);n=k;c&&m(function(){window.setTimeout(function(){r(k)},0)})});})();pagespeed.CriticalImages.Run('/mod_pagespeed_beacon','https://www.accountcontabilidade.com.br/hp12c/','msz7hCz8lA',true,false,'g56ur-KFl44');
-		//]]></script><img src="arquivos/hp12c.jpg" id=cross onclick="key_pressed(event)" alt="" pagespeed_url_hash=1708501327 onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/>
+			//]]>
+	</script>
+
+		<img src="arquivos/hp12c.jpg" id="cross" onclick="key_pressed(event)" alt="" pagespeed_url_hash=1708501327 onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/>
 		<div style="z-index: 1; position: absolute; left: 87px; top: 24px; font-weight: bold; font-size: 16px; font-family: sans-serif;">
 		<span id=display></span>
 		</div>
@@ -149,14 +152,15 @@
 		</script>
 		<![endif]-->
 
-		</div>
+</div>
 
+<div class="script">
 		<div align=center>
 		  <script type="text/javascript" defer=defer>Init_hp12c();</script>
 		</div>
 
 
-		<script pagespeed_no_defer="" type="text/javascript">//<![CDATA[
+	<script pagespeed_no_defer="" type="text/javascript">//<![CDATA[
 		(function(){window.pagespeed=window.pagespeed||{};var f=window.pagespeed,h=function(e,a,c,b){this.c=e;this.a=a;this.b=c;this.d=b};f.beaconUrl="";
 		var k=function(e){var a=e.c,c=window.mod_pagespeed_start,b=Number(new Date)-c,a=a+(-1==a.indexOf("?")?"?":"&"),a=a+"ets="+("load"==e.a?"load:":"unload:"),a=a+b;if("beforeunload"!=e.a||!window.mod_pagespeed_loaded){a+="&r"+e.a+"=";if(window.performance){var b=window.performance.timing,d=b.navigationStart,g=b.requestStart,a=a+(b[e.a+"EventStart"]-d),a=a+("&nav="+(b.fetchStart-d)),a=a+("&dns="+(b.domainLookupEnd-b.domainLookupStart)),a=a+("&connect="+(b.connectEnd-b.connectStart)),a=a+("&req_start="+
 		(g-d)),a=a+("&ttfb="+(b.responseStart-g)),a=a+("&dwld="+(b.responseEnd-b.responseStart)),a=a+("&dom_c="+(b.domContentLoadedEventStart-d));window.performance.navigation&&(a+="&nt="+window.performance.navigation.type);d=-1;b.msFirstPaint?d=b.msFirstPaint:window.chrome&&window.chrome.loadTimes&&(d=Math.floor(1E3*window.chrome.loadTimes().firstPaintTime));d=d-g;0<=d&&(a+="&fp="+d)}else a+=b;f.getResourceTimingData&&window.parent==window&&(a+=f.getResourceTimingData());a+=window.parent!=window?"&ifr=1":
@@ -165,6 +169,7 @@
 
 		pagespeed.addInstrumentationInit('/mod_pagespeed_beacon', 'load', '', 'https://www.accountcontabilidade.com.br/hp12c/');
 		//]]>
-		</script>
-	</body>
+	</script>
+</div>
+</body>
 </html>
