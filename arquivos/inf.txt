@@ -1,1 +1,0 @@
-Pasta arquivos: Aqui ficarão os arquivos necessários para o funcionamento do app.
