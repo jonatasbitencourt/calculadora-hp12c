@@ -4,7 +4,7 @@
 
 ## Clique [**aqui**](https://jonasjf360.github.io/calculadora-hp12c/ "Clique e acesse agora!") para acessa-la agora mesmo.
 
-### Clique [**aqui**](https://pt.wikipedia.org/wiki/HP_12C "HP-12C Wikipédia") saber mais sobre a HP-12C ou para saber como utiliza-la corretamente.
+### Clique [**aqui**](https://pt.wikipedia.org/wiki/HP_12C "HP-12C Wikipédia") para saber mais sobre a HP-12C ou para saber como utiliza-la corretamente.
 
 <img src="arquivos/hp12c.jpg" alt="HP-12C" />
 
